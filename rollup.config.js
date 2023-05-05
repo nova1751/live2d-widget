@@ -22,8 +22,8 @@ function string(opts = {}) {
 
         renderChunk(code, chunk, outputOptions = {}) {
             return `/*!
- * Live2D Widget
- * https://github.com/stevenjoezhang/live2d-widget
+ * Live2D API
+ * https://github.com/nova1751/live2d-api
  */
 ` + code;
         }
